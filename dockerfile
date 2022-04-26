@@ -13,3 +13,5 @@ RUN rm -f Miniconda3-py39_4.10.3-Linux-x86_64.sh
 
 RUN conda install -y pytorch==1.9 cudatoolkit=10.2 -c pytorch
 RUN conda install -y matplotlib
+
+RUN mkdir /data
