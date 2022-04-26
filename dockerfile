@@ -17,3 +17,4 @@ RUN conda install -y matplotlib
 RUN mkdir /data
 
 RUN wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json
+RUN wget https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json
