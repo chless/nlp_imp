@@ -15,3 +15,5 @@ RUN conda install -y pytorch==1.9 cudatoolkit=10.2 -c pytorch
 RUN conda install -y matplotlib
 
 RUN mkdir /data
+
+RUN wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json
